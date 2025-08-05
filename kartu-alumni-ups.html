@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartu Alumni UPS Bagian Depan</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .bg-container {
+        width: 400px;
+        height: 250px;
+        background-image: url("sample_depan_bg.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .card-content {
+        width: 100%;
+        height: 100%;
+      }
+
+      .content {
+        display: flex;
+        align-items: center;
+        padding: 93px 20px 20px 30px;
+        gap: 20px;
+      }
+
+      .image {
+        width: 120px;
+        height: 120px;
+        border-radius: 10%;
+        overflow: hidden;
+      }
+      
+      .image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 10%;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        color: #283c74;
+        font-size: 12px;
+      }
+      
+      .text-item {
+        margin: 1px 0;
+      }
+      
+      .text-item p {
+        margin: 1px 0;
+        padding: 0;
+      }
+      
+      .text-item p:first-child {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="card-content">
+        <div class="content">
+          <div class="image">
+            <img src="pas_foto.jpeg" alt="Foto Alumni">
+          </div>
+          <div class="text">
+            <div class="text-item">
+              <p>Nama</p>
+              <p>Fullan bin Fullaniyah</p>
+            </div>
+            <div class="text-item">
+              <p>Nomor Alumni</p>
+              <p>2024200001</p>
+            </div>
+            <div class="text-item">
+              <p>Nomor. Telepon</p>
+              <p>+123-456-7890</p>
+            </div>
+            <div class="text-item">
+              <p>Alamat</p>
+              <p>Jl. Halmahera Km. 1 Kota Tegal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
